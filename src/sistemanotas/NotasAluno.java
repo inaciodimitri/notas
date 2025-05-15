@@ -45,12 +45,6 @@ public class NotasAluno {
     }
 
     
-    public String situacao() {
-        double media = calcularMedia();
-        if (media >= 6.0) {
-            return "Aprovado";
-        } else {
-            return "Reprovado";
-        }
+ 
     }
 }
